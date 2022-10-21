@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Inter", sans-serif !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.header {
+  width: 100px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .navigation .nav-item {
+  display: block;
+  margin-top: 67px;
+  cursor: pointer;
+}
+.header .navigation .nav-item img {
+  width: 35px;
+}
+
+.form-block {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.form-block .form {
+  position: relative;
+  display: flex;
+}
+.form-block .form .form-input-label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+}
+.form-block .form .form-input-label label {
+  color: white;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+}
+.form-block .form .form-input-label input[type=text], .form-block .form .form-input-label input[type=password] {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: white;
+}
+.form-block .form .submit-btn {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 200px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  padding: 6px 0;
+  font-weight: 400;
+  border-radius: 50px;
+}
+.form-block .form .delete {
+  right: 41.5% !important;
+}
+
+.main-content {
+  display: flex;
+  max-width: 1728px;
+  max-height: 1117px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d2144;
+}
+
+.user-icon {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+}
+.user-icon img {
+  width: 150px !important;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.title {
+  color: white;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: white;
+  font-weight: 380;
+  margin: 50px 0;
+}/*# sourceMappingURL=index.css.map */

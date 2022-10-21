@@ -1,0 +1,37 @@
+@import './config', './header', './createForm';
+
+.main-content {
+    display: flex;
+    max-width: 1728px;
+    max-height: 1117px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d2144;
+}
+
+.user-icon {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    img {
+        width: 150px !important;
+    }
+}
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.title {
+    color: white;
+    font-weight: 400;
+}
+
+.subtitle {
+    color: white;
+    font-weight: 380;
+    margin: 50px 0;
+}

@@ -1,0 +1,42 @@
+.form-block {
+    width: 100%;
+    margin-bottom: 100px;
+    .form {
+        position: relative;
+        display: flex;
+        .form-input-label {
+            display: flex;
+            flex-direction: column;
+            margin-right: 35px;
+            label {
+                color: white;
+                font-style: normal;
+                font-weight: 350;
+                font-size: 20px;
+            }
+            input[type="text"], input[type="password"]{
+                border: 2px solid white;
+                background-color: transparent;
+                border-radius: 50px;
+                padding: 5px 10px;
+                color: white;
+            }
+        }
+        .submit-btn {
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            width: 200px;
+            height: 38px;
+            position: absolute;
+            bottom: 0;
+            right: 20%;
+            padding: 6px 0;
+            font-weight: 400;
+            border-radius: 50px; 
+        }
+        .delete {
+            right: 41.5% !important;
+        }
+    }
+}
